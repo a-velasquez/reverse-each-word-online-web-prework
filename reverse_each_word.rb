@@ -1,5 +1,4 @@
-words = "Hello there, and how are you?
+sentence = 
 
-def reverse_each_word(words)
-
+def reverse_each_word(sentence)
 end
