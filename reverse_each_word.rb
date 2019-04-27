@@ -1,8 +1,8 @@
 def reverse_each_word(sentence)
-  reversed = []
+  final_array = []
   normal = sentence.split(" ")
   normal.collect do |x|
-    reversed << x.reverse 
+    final_array << x.reverse 
   end  
-    reversed.join(" ")
+    final_array.join(" ")
 end
